@@ -1,0 +1,11 @@
+{
+  "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ProcessForm",
+    "Owner": "LeedToWork",
+    "Alias": "form22369605614c4a4a9f70b54e47adffee"
+  },
+  "IsDefault": false,
+  "Origination": "Undefined"
+}
