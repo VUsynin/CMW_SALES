@@ -13,6 +13,32 @@
       "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
       "$values": [
         {
+          "$type": "Comindware.Platform.Contracts.ActionButtonModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+            "En": "Взять в работу",
+            "De": "Взять в работу",
+            "Ru": "Взять в работу"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "UserCommandGlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "UserCommand",
+            "Owner": "Leed",
+            "Alias": "TakeToWork"
+          },
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "TakeToWork"
+          },
+          "AccessType": "Editable",
+          "Width": 0,
+          "Type": "ActionButton"
+        },
+        {
           "$type": "Comindware.Platform.Contracts.LayoutModel, Comindware.Platform.Contracts",
           "Components": {
             "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
